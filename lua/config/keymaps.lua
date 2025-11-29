@@ -5,3 +5,5 @@
 -- Select entire file with Ctrl+A
 vim.keymap.set("n", "<C-a>", "ggVG", { desc = "Select entire file" })
 vim.keymap.set("i", "<C-a>", "<Esc>ggVG", { desc = "Select entire file" })
+
+vim.keymap.set("n", "<leader>q", ":qa<CR>", { desc = "Quit All" })
