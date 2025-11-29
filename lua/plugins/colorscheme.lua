@@ -4,7 +4,7 @@ return {
     "sainnhe/sonokai",
     init = function()
       -- Set the variant before the theme is loaded
-      vim.g.sonokai_style = "default"
+      vim.g.sonokai_style = "andromeda"
     end,
   },
   -- Configure LazyVim to load this colorscheme
