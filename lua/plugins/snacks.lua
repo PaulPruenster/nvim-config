@@ -2,6 +2,13 @@ return {
   "folke/snacks.nvim",
   opts = {
     picker = {
+      sources = {
+        explorer = {
+          layout = {
+            auto_hide = { "input" }, -- This line hides the search bar
+          },
+        },
+      },
       win = {
         list = {
           keys = {
