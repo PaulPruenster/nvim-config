@@ -7,3 +7,8 @@ vim.keymap.set("n", "<C-a>", "ggVG", { desc = "Select entire file" })
 vim.keymap.set("i", "<C-a>", "<Esc>ggVG", { desc = "Select entire file" })
 
 vim.keymap.set("n", "<leader>q", ":qa<CR>", { desc = "Quit All" })
+
+-- Map Ctrl-j to toggle the terminal
+vim.keymap.set("n", "<C-j>", "<cmd>ToggleTerm<CR>", { desc = "Toggle terminal", noremap = true, silent = true })
+-- Optional: Also make it work in insert mode
+vim.keymap.set("i", "<C-j>", "<Esc><cmd>ToggleTerm<CR>", { desc = "Toggle terminal", noremap = true, silent = true })
