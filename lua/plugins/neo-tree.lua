@@ -10,8 +10,6 @@ return {
         -- Override the default 'l' key to open a file/folder
         ["l"] = "open",
         ["<Right>"] = "open", -- New: right arrow also opens
-        -- Optional: Keep other useful default bindings visible
-        ["<space>"] = "none", -- Prevents space from toggling selection
       },
     },
   },
