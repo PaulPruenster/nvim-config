@@ -13,6 +13,8 @@ return {
         -- Override the default 'l' key to open a file/folder
         ["l"] = "open",
         ["<Right>"] = "open", -- New: right arrow also opens
+
+        ["Z"] = "expand_all_subnodes",
       },
     },
     filesystem = {
