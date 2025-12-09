@@ -3,6 +3,8 @@ return {
   "nvim-neo-tree/neo-tree.nvim",
   opts = {
     window = {
+      width = 25,
+      auto_expand_width = true,
       mappings = {
         -- Override the default 'h' key to close a folder
         ["h"] = "close_node",
