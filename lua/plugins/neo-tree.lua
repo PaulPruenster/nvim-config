@@ -14,7 +14,8 @@ return {
         ["l"] = "open",
         ["<Right>"] = "open", -- New: right arrow also opens
 
-        ["Z"] = "expand_all_subnodes",
+        ["g"] = "expand_all_subnodes",
+        ["s"] = "none",
       },
     },
     filesystem = {
